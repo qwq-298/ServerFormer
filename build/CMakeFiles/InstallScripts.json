@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/qwq1830/work/ServerFormer/build/cmake_install.cmake",
+		"/home/qwq1830/work/ServerFormer/build/pans/cmake_install.cmake",
+		"/home/qwq1830/work/ServerFormer/build/tests/cmake_install.cmake",
+		"/home/qwq1830/work/ServerFormer/build/tools/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

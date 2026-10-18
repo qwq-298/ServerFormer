@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpans.a CMakeFiles/pans.dir/pansempty.cpp.o
+/usr/bin/ranlib libpans.a
