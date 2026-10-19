@@ -185,6 +185,45 @@ pans/fast:
 	$(MAKE) $(MAKESILENT) -f pans/CMakeFiles/pans.dir/build.make pans/CMakeFiles/pans.dir/build
 .PHONY : pans/fast
 
+#=============================================================================
+# Target rules for targets named maroco_test
+
+# Build rule for target.
+maroco_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maroco_test
+.PHONY : maroco_test
+
+# fast build rule for target.
+maroco_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/maroco_test.dir/build.make tests/CMakeFiles/maroco_test.dir/build
+.PHONY : maroco_test/fast
+
+#=============================================================================
+# Target rules for targets named mutex_test
+
+# Build rule for target.
+mutex_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mutex_test
+.PHONY : mutex_test
+
+# fast build rule for target.
+mutex_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/mutex_test.dir/build.make tests/CMakeFiles/mutex_test.dir/build
+.PHONY : mutex_test/fast
+
+#=============================================================================
+# Target rules for targets named ramdom_test
+
+# Build rule for target.
+ramdom_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ramdom_test
+.PHONY : ramdom_test
+
+# fast build rule for target.
+ramdom_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ramdom_test.dir/build.make tests/CMakeFiles/ramdom_test.dir/build
+.PHONY : ramdom_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,7 +237,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... maroco_test"
+	@echo "... mutex_test"
 	@echo "... pans"
+	@echo "... ramdom_test"
 .PHONY : help
 
 

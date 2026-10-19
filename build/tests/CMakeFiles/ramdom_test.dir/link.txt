@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/ramdom_test.dir/link.d CMakeFiles/ramdom_test.dir/ramdom_test.cpp.o -o /home/qwq1830/work/ServerFormer/bin/tests/ramdom_test  ../pans/libpans.a

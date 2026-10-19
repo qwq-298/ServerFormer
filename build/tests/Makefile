@@ -172,6 +172,120 @@ depend:
 	cd /home/qwq1830/work/ServerFormer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+tests/CMakeFiles/maroco_test.dir/rule:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/maroco_test.dir/rule
+.PHONY : tests/CMakeFiles/maroco_test.dir/rule
+
+# Convenience name for target.
+maroco_test: tests/CMakeFiles/maroco_test.dir/rule
+.PHONY : maroco_test
+
+# fast build rule for target.
+maroco_test/fast:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/maroco_test.dir/build.make tests/CMakeFiles/maroco_test.dir/build
+.PHONY : maroco_test/fast
+
+# Convenience name for target.
+tests/CMakeFiles/mutex_test.dir/rule:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/mutex_test.dir/rule
+.PHONY : tests/CMakeFiles/mutex_test.dir/rule
+
+# Convenience name for target.
+mutex_test: tests/CMakeFiles/mutex_test.dir/rule
+.PHONY : mutex_test
+
+# fast build rule for target.
+mutex_test/fast:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/mutex_test.dir/build.make tests/CMakeFiles/mutex_test.dir/build
+.PHONY : mutex_test/fast
+
+# Convenience name for target.
+tests/CMakeFiles/ramdom_test.dir/rule:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ramdom_test.dir/rule
+.PHONY : tests/CMakeFiles/ramdom_test.dir/rule
+
+# Convenience name for target.
+ramdom_test: tests/CMakeFiles/ramdom_test.dir/rule
+.PHONY : ramdom_test
+
+# fast build rule for target.
+ramdom_test/fast:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ramdom_test.dir/build.make tests/CMakeFiles/ramdom_test.dir/build
+.PHONY : ramdom_test/fast
+
+maroco_test.o: maroco_test.cpp.o
+.PHONY : maroco_test.o
+
+# target to build an object file
+maroco_test.cpp.o:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/maroco_test.dir/build.make tests/CMakeFiles/maroco_test.dir/maroco_test.cpp.o
+.PHONY : maroco_test.cpp.o
+
+maroco_test.i: maroco_test.cpp.i
+.PHONY : maroco_test.i
+
+# target to preprocess a source file
+maroco_test.cpp.i:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/maroco_test.dir/build.make tests/CMakeFiles/maroco_test.dir/maroco_test.cpp.i
+.PHONY : maroco_test.cpp.i
+
+maroco_test.s: maroco_test.cpp.s
+.PHONY : maroco_test.s
+
+# target to generate assembly for a file
+maroco_test.cpp.s:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/maroco_test.dir/build.make tests/CMakeFiles/maroco_test.dir/maroco_test.cpp.s
+.PHONY : maroco_test.cpp.s
+
+mutex_test.o: mutex_test.cpp.o
+.PHONY : mutex_test.o
+
+# target to build an object file
+mutex_test.cpp.o:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/mutex_test.dir/build.make tests/CMakeFiles/mutex_test.dir/mutex_test.cpp.o
+.PHONY : mutex_test.cpp.o
+
+mutex_test.i: mutex_test.cpp.i
+.PHONY : mutex_test.i
+
+# target to preprocess a source file
+mutex_test.cpp.i:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/mutex_test.dir/build.make tests/CMakeFiles/mutex_test.dir/mutex_test.cpp.i
+.PHONY : mutex_test.cpp.i
+
+mutex_test.s: mutex_test.cpp.s
+.PHONY : mutex_test.s
+
+# target to generate assembly for a file
+mutex_test.cpp.s:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/mutex_test.dir/build.make tests/CMakeFiles/mutex_test.dir/mutex_test.cpp.s
+.PHONY : mutex_test.cpp.s
+
+ramdom_test.o: ramdom_test.cpp.o
+.PHONY : ramdom_test.o
+
+# target to build an object file
+ramdom_test.cpp.o:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ramdom_test.dir/build.make tests/CMakeFiles/ramdom_test.dir/ramdom_test.cpp.o
+.PHONY : ramdom_test.cpp.o
+
+ramdom_test.i: ramdom_test.cpp.i
+.PHONY : ramdom_test.i
+
+# target to preprocess a source file
+ramdom_test.cpp.i:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ramdom_test.dir/build.make tests/CMakeFiles/ramdom_test.dir/ramdom_test.cpp.i
+.PHONY : ramdom_test.cpp.i
+
+ramdom_test.s: ramdom_test.cpp.s
+.PHONY : ramdom_test.s
+
+# target to generate assembly for a file
+ramdom_test.cpp.s:
+	cd /home/qwq1830/work/ServerFormer/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ramdom_test.dir/build.make tests/CMakeFiles/ramdom_test.dir/ramdom_test.cpp.s
+.PHONY : ramdom_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,6 +299,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... maroco_test"
+	@echo "... mutex_test"
+	@echo "... ramdom_test"
+	@echo "... maroco_test.o"
+	@echo "... maroco_test.i"
+	@echo "... maroco_test.s"
+	@echo "... mutex_test.o"
+	@echo "... mutex_test.i"
+	@echo "... mutex_test.s"
+	@echo "... ramdom_test.o"
+	@echo "... ramdom_test.i"
+	@echo "... ramdom_test.s"
 .PHONY : help
 
 

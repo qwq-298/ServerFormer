@@ -37,7 +37,7 @@ target_compile_options(
 
 target_compile_options(
     pansOptions INTERFACE
-    $<$<CONFIG:Release>:-DNDEDEBUG>
+    $<$<CONFIG:Release>:-DNDEBUG>
     $<$<CONFIG:Release>:-O2>
     $<$<CONFIG:Release>:-fno-omit-frame-pointer>
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/maroco_test.dir/link.d CMakeFiles/maroco_test.dir/maroco_test.cpp.o -o /home/qwq1830/work/ServerFormer/bin/tests/maroco_test  ../pans/libpans.a

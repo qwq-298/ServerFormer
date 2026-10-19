@@ -13,6 +13,9 @@
 /home/qwq1830/work/ServerFormer/build/pans/CMakeFiles/install.dir
 /home/qwq1830/work/ServerFormer/build/pans/CMakeFiles/install/local.dir
 /home/qwq1830/work/ServerFormer/build/pans/CMakeFiles/install/strip.dir
+/home/qwq1830/work/ServerFormer/build/tests/CMakeFiles/maroco_test.dir
+/home/qwq1830/work/ServerFormer/build/tests/CMakeFiles/mutex_test.dir
+/home/qwq1830/work/ServerFormer/build/tests/CMakeFiles/ramdom_test.dir
 /home/qwq1830/work/ServerFormer/build/tests/CMakeFiles/test.dir
 /home/qwq1830/work/ServerFormer/build/tests/CMakeFiles/edit_cache.dir
 /home/qwq1830/work/ServerFormer/build/tests/CMakeFiles/rebuild_cache.dir

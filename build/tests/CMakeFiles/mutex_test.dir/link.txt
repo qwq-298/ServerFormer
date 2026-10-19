@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/mutex_test.dir/link.d CMakeFiles/mutex_test.dir/mutex_test.cpp.o -o /home/qwq1830/work/ServerFormer/bin/tests/mutex_test  ../pans/libpans.a
