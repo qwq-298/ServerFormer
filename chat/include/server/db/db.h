@@ -1,0 +1,31 @@
+#ifndef DB_H
+#define DB_H
+
+#include <mysql/mysql.h>
+#include <string>
+//#include <logger/log.h>
+
+namespace chat{
+
+static std::string server = "127.0.0.1";
+
+static std::string user ="root";
+static std::string password ="123456";
+static std::string dbname = "chatserver";
+
+class MySQL
+{
+    public:
+    MySQL();
+    ~MySQL();
+    bool connect();
+    bool update(std::string sql);
+    MYSQL_RES* query(std::string sql);
+    MYSQL* getConnection();
+    private:
+    MYSQL * conn;
+};
+
+
+}
+#endif

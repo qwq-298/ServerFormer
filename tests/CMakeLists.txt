@@ -14,7 +14,7 @@ set(PANS_TESTS_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin/tests")
 foreach(TEST_SOURCE IN LISTS PANS_TESTS_SOURCES)
     get_filename_component(TEST_NAME "${TEST_SOURCE}" NAME_WE)
     add_executable("${TEST_NAME}" "${TEST_SOURCE}")
-    target_link_libraries("${TEST_NAME}" PRIVATE pans Threads::Threads)
+    target_link_libraries("${TEST_NAME}" PRIVATE pans Threads::Threads nlohmann_json::nlohmann_json muduo_net)
     set_target_properties(
         "${TEST_NAME}" PROPERTIES
         RUNTIME_OUTPUT_DIRECTORY "${PANS_TESTS_OUTPUT_DIRECTORY}"
@@ -29,5 +29,6 @@ foreach(TEST_SOURCE IN LISTS PANS_TESTS_SOURCES)
     add_test(NAME "${TEST_NAME}" COMMAND "${TEST_NAME}")
 endforeach()  
     
+add_subdirectory(inner_tests)
 
 

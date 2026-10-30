@@ -15,6 +15,7 @@ target_link_libraries(
     pans
     PUBLIC 
     pansOptions
+    yaml-cpp::yaml-cpp
 )
 
 target_compile_options(
@@ -29,7 +30,7 @@ install(
     EXPORT pansTargets
     ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    RUNTIME DESTINATION ${CAMEK_INSTALL_BINDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
 install(

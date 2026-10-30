@@ -1,0 +1,15 @@
+#ifndef PUBLIC_H
+#define PUBLIC_H
+enum MSGTYPE{
+     LOGIN_MSG =1,
+     REGISTRE_MSG=2,
+     REGISTER_MSG_ACK=3,
+     LOGIN_MSG_ACK=4,
+     ONE_TO_ONE_CHAT_MSG=5,
+     ADD_FRIEND_MSG=6,
+
+     CREATE_GROUP_MSG=7,
+     ADD_GROUP_MSG=8,
+     GROUP_CHAT_MSG=9,
+};
+#endif

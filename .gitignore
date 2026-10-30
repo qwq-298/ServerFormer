@@ -1,0 +1,6 @@
+# Build output
+/build/
+/bin/
+
+# Downloaded Boost source tree (fetched by CMake, see CMakeLists.txt)
+/third_party/boost_1_86_0/
